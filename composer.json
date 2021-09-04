@@ -1,0 +1,29 @@
+{
+    "name": "vavelar91/exercicio",
+    "description": "exercicio",
+    "minimum-stability": "alpha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius",
+            "email": "vinicius.avelar91@gmail.com",
+            "role": "developer"         
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "1.0.*",
+        "coffeecode/datalayer": "1.1.2",
+        "league/plates": "v4.0.0-alpha"
+    }
+} 

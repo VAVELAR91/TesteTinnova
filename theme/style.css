@@ -1,0 +1,20 @@
+body {
+    background-color:dimgrey;
+    color: ghostwhite;
+    font-family: GoldplayRegular;
+}
+
+@font-face {
+    font-family: GoldplayRegular;
+    src: url("Goldplay Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: GoldplaySemiBold;
+    src: url("Goldplay SemiBold.otf") format("opentype");
+}
+.main_content{
+    margin-top: 50px;
+}
+.row{
+    margin-top: 1rem;
+}
