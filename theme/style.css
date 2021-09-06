@@ -18,3 +18,6 @@ body {
 .row{
     margin-top: 1rem;
 }
+.col-form-label, .modal-title{
+    color: black;
+}

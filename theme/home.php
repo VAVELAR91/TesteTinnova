@@ -1,4 +1,5 @@
-<?php $v->layout("_theme"); ?>
+<?php 
+$v->layout("_theme"); ?>
 <div class="container">
     <div class="row">
         <div class="col"><h4>1) Votos em relação ao Total de Eleitores</h4></div>
