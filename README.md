@@ -13,7 +13,6 @@ Desenvolvidos em PHP, JS, CSS, SQL, Bootstrap e HTML
 ## Install
 
 - Instalar xampp - verão minima 7.4.9
-  PHP Version 7.4.9
 - Instalar o composer
 ```bash
 composer update --no-interaction --ansi
@@ -45,6 +44,11 @@ CREATE TABLE `votos` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ;
+
+INSERT INTO `votos` (`id`, `tipo`, `quantidade`, `created_at`, `updated_at`) VALUES
+(1, 'Válidos', 800, '2021-09-04 15:22:46', '2021-09-04 15:22:46'),
+(2, 'Bracos', 150, '2021-09-04 15:22:46', '2021-09-04 15:22:46'),
+(4, 'Nulos', 50, '2021-09-04 15:23:06', '2021-09-04 15:23:06');
 ```
 
 - Configurar acesso ao banco de dados no aquivo source/config.php
@@ -53,7 +57,7 @@ CREATE TABLE `votos` (
 
 Todos os testes estão em uma unica aplicação, separados por paginas.
 
-Cada exercicio tem seu Model e sua pagina
+Cada exercicio tem seu Model e sua a pagina
 
 O Model fica dentro da pasta Models, com seus atributos funções e conexão com o banco de dados.
 
